@@ -1,0 +1,144 @@
+.watchlist-creator-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 50px 75px;
+}
+
+.select-container {
+  background-color: white;
+  width: 500px;
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.input-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-button input {
+  font-size: 16px;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+
+.input-button input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: initial;
+}
+
+.input-button button {
+  font-size: 24px;
+  width: 35px;
+  height: 41px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+  padding: 0;
+}
+
+.input-button button:hover {
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.input-button button:disabled {
+  cursor: not-allowed;
+}
+
+.info-container {
+  background-color: white;
+  width: 500px;
+  padding: 25px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.save-watchlist-btn-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.save-watchlist-btn {
+  width: 100%;
+  font-size: 14px;
+  padding: 8px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.save-watchlist-btn:disabled {
+  cursor: not-allowed;
+}
+
+.watchlist-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.watchlist-row {
+  display: flex;
+  padding: 8px 0;
+}
+
+.watchlist-name {
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.watchlist-titles {
+  flex: 1;
+  text-align: left;
+  white-space: normal;
+  overflow: visible;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 8px;
+}
+
+.title-counts table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.title-counts th,
+.title-counts td {
+  padding: 4px 8px;
+}
+
+.title-counts th:first-child,
+.title-counts td:first-child {
+  text-align: left;
+}
+
+.title-counts th:last-child,
+.title-counts td:last-child {
+  text-align: right;
+}
+
+.title-counts tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.title-counts tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.title-counts tr:last-child {
+  border-bottom: none;
+}

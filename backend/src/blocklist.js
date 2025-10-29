@@ -1,0 +1,1 @@
+module.exports = { bannedKeywords: ["Marvel", "Disney", "Nickelodeon"] };
